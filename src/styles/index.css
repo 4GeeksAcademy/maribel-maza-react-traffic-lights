@@ -16,21 +16,29 @@ body {
   width: 80px;
   bottom: 3px;
   margin-bottom: 0.5rem;
+  cursor: pointer;
 }
 
 
-.light.red.ligthOn {
+.light.red.lightOn {
   background-color: #c0392b;
   box-shadow: 0 0 20px 5px #c0392b;
 }
 
-.light.yellow.ligthOn {
+.light.yellow.lightOn {
   background-color: #f1c40f;
   box-shadow: 0 0 20px 5px #f1c40f;
 
 }
 
-.light.green.ligthOn {
+.light.green.lightOn {
   background-color: #2ecc71;
   box-shadow: 0 0 20px 5px #2ecc71;
+}
+
+.containerTop {
+  background-color: black;
+  width: 15px;
+  height: 80px;
+  margin-left: 50px;
 }
